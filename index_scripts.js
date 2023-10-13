@@ -21,7 +21,7 @@ descargar_cv_btn.addEventListener('click', (e) => {
 });
 
 function getCV() {
-  fetch('http://localhost:8468/getCV', {
+  fetch('https://tallerdevweb-server.onrender.com/getCV', {
     method: 'GET',
   })
     .then((res) => {

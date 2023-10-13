@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
 
 function submitForm(body) {
   // console.log(body);
-  fetch('http://localhost:8468/postMensaje', {
+  fetch('https://tallerdevweb-server.onrender.com/postMensaje', {
     method: 'POST',
     headers: {
       Accept: 'application/json',
