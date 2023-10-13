@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="font-size: 32px"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="encabezado.css"
+    />
+    <link
+      rel="stylesheet"
+      href="pie.css"
+    />
+    <link
+      rel="stylesheet"
+      href="contacto-section.css"
+    />
+    <link
+      rel="stylesheet"
+      href="perfil_section.css"
+    />
+    <link
+      rel="stylesheet"
+      href="aptitudes_section.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>✉ Contacto</title>
+  </head>
+  <body>
+    <header class="banner-sup">
+      <div class="area-sup">
+        <nav class="nav-sup">
+          <div class="div-home-link">
+            <a
+              class="home-link"
+              href="index.html"
+              >Martín</a
+            >
+          </div>
+          <div class="div-encab-link">
+            <!-- <a href="#home-section">Home</a> -->
+            <a
+              class="encab-link"
+              href="index.html#perfil-section"
+              >Perfil</a
+            >
+            <a
+              class="encab-link"
+              href="index.html#aptitudes-section"
+              onclick="reloadScroll()"
+              >Aptitudes</a
+            >
+            <a
+              class="encab-link"
+              href="index.html#formacion-section"
+              >Formación</a
+            >
+            <a
+              class="encab-link"
+              href=""
+              >Experiencia</a
+            >
+            <a
+              class="encab-link"
+              href="contacto.html"
+              >Contacto</a
+            >
+            <a
+              class="encab-link"
+              id="descargar_cv"
+              href=""
+              >CV</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="contacto-section">
+      <div class="div-contacto-h2">
+        <h2>Contacto</h2>
+      </div>
+      <div class="form-contenedor">
+        <form
+          action="/"
+          method="post"
+          id="form"
+        >
+          <div class="form-div-nombre-email">
+            <div class="form-div">
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                name="nombre"
+                class="nombre-email"
+                id="nombre"
+                placeholder="Nombre..."
+                required
+              />
+            </div>
+            <div class="form-div">
+              <label for="email">Email:</label>
+              <input
+                type="text"
+                name="email"
+                class="nombre-email"
+                id="email"
+                placeholder="Email..."
+                required
+              />
+            </div>
+          </div>
+          <div class="form-div">
+            <label for="asunto">Asunto:</label>
+            <input
+              type="text"
+              name="asunto"
+              class="asunto"
+              id="asunto"
+              placeholder="Asunto..."
+            />
+          </div>
+          <div class="form-div">
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              class="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Mensaje..."
+              required
+            ></textarea>
+          </div>
+          <div class="botones-div">
+            <div class="boton-limpiar-div">
+              <input
+                type="reset"
+                value="Limpiar"
+                class="limpiar"
+                id="limpiar"
+              />
+            </div>
+            <div class="submit-div">
+              <input
+                type="submit"
+                value="Enviar mensaje"
+                class="submit"
+                id="submit"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div
+      class="alerta"
+      id="alerta"
+    >
+      <span
+        class="cerrar-alerta"
+        onclick="ocultar()"
+        >(Cerrar)</span
+      >
+      <h4
+        clase="texto"
+        id="texto"
+      ></h4>
+    </div>
+    <footer>
+      <div class="div-barra-inferior">
+        <div>
+          <h4>Teléfono</h4>
+          <h4>Email</h4>
+          <h4>Sitio Web</h4>
+        </div>
+        <div>
+          <p>+547-651-6547</p>
+          <p>martin@misitio.com</p>
+          <p>www.misitio.com</p>
+        </div>
+      </div>
+    </footer>
+    <script src="contacto_script.js"></script>
+    <script src="index_scripts.js"></script>
+  </body>
+</html>

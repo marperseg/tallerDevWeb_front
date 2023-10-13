@@ -1,0 +1,92 @@
+.perfil-section {
+  position: relative;
+  top: 3rem;
+}
+
+.div-perfil-h2 {
+  padding: 1.5rem;
+  border-bottom: 0.05rem solid rgba(195, 195, 195, 0.8);
+}
+
+.div-perfil-h2 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  color: rgb(68, 7, 114);
+}
+
+.div-perfil-img-texto {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.div-perfil-img {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.div-perfil-img img {
+  width: 40%;
+}
+
+.div-perfil-texto {
+  width: 60%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.div-perfil-texto h4 {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(60, 57, 76);
+  font-weight: 400;
+  font-size: 0.6rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.div-perfil-texto p {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(108, 101, 142);
+  font-weight: 400;
+  font-size: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.div-perfil-img-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div-perfil-img-info div {
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.05rem solid rgba(195, 195, 195, 0.8);
+}
+
+.div-perfil-img-info h4 {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(60, 57, 76);
+  font-weight: 400;
+  font-size: 0.6rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.div-perfil-img-info p {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(108, 101, 142);
+  font-weight: 400;
+  font-size: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

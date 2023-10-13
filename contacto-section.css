@@ -1,0 +1,198 @@
+.contacto-section {
+  position: relative;
+  top: 3rem;
+}
+
+.div-contacto-h2 {
+  padding: 1.5rem;
+  border-bottom: 0.05rem solid rgba(195, 195, 195, 0.8);
+  border-top: 0.05rem solid rgba(195, 195, 195, 0.8);
+}
+
+.div-contacto-h2 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  color: rgb(68, 7, 114);
+}
+
+/* Formulario */
+.form-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-div-nombre-email {
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.nombre-email {
+  width: 14rem;
+  height: 1rem;
+}
+
+.asunto {
+  width: 29rem;
+  height: 1rem;
+}
+
+.mensaje {
+  width: 29rem;
+  height: 5rem;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(60, 57, 76);
+  font-weight: 300;
+  font-size: 0.5rem;
+}
+
+input,
+textarea {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(60, 57, 76);
+  font-weight: 300;
+  font-size: 0.5rem;
+  animation: 1s ease-in 0s 1 aparecer_desde_abajo;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgba(60, 57, 76);
+  /* box-shadow: 0.1rem 0.1rem 0.2rem rgba(60, 57, 76, 0.5); */
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(60, 57, 76);
+  font-weight: 400;
+  font-size: 0.6rem;
+  animation: 1s ease-in 0s 1 aparecer_desde_abajo;
+}
+
+.botones-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  width: 14rem;
+  height: 2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: white;
+  border: none;
+  background: rgba(255, 36, 222, 0.75);
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+  animation: 1s ease-in 0s 1 aparecer_desde_arriba;
+}
+
+.submit:hover {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  transform: translateY(-10%);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.limpiar {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  width: 14rem;
+  height: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: white;
+  border: none;
+  background: rgba(60, 57, 76);
+  animation: 1s ease-in 0s 1 aparecer_desde_arriba;
+}
+
+.limpiar:hover {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.boton-limpiar-div,
+.submit-div {
+  padding: 0.3rem;
+}
+
+@keyframes aparecer_desde_abajo {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes aparecer_desde_arriba {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.alerta {
+  position: relative;
+  visibility: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.alerta h4 {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(60, 57, 76);
+  font-weight: 400;
+  font-size: 0.6rem;
+  padding-left: 0.5;
+  padding-right: 1rem;
+}
+
+.alerta span {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(60, 57, 76);
+  font-weight: 300;
+  font-size: 0.5rem;
+  cursor: pointer;
+}

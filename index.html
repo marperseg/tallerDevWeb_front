@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="font-size: 32px"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="encabezado.css"
+    />
+    <link
+      rel="stylesheet"
+      href="pie.css"
+    />
+    <link
+      rel="stylesheet"
+      href="home_section.css"
+    />
+    <link
+      rel="stylesheet"
+      href="perfil_section.css"
+    />
+    <link
+      rel="stylesheet"
+      href="aptitudes_section.css"
+    />
+    <link
+      rel="stylesheet"
+      href="formacion_section.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mi página de presentación</title>
+  </head>
+  <body>
+    <header class="banner-sup">
+      <div class="area-sup">
+        <nav class="nav-sup">
+          <div class="div-home-link">
+            <a
+              class="home-link"
+              href="index.html"
+              >Martín</a
+            >
+          </div>
+          <div class="div-encab-link">
+            <a
+              class="encab-link"
+              href="#perfil-section"
+              >Perfil</a
+            >
+            <a
+              class="encab-link"
+              href="#aptitudes-section"
+              onclick="reloadScroll()"
+              >Aptitudes</a
+            >
+            <a
+              class="encab-link"
+              href="#formacion-section"
+              >Formación</a
+            >
+            <a
+              class="encab-link"
+              href=""
+              >Experiencia</a
+            >
+            <a
+              class="encab-link"
+              href="contacto.html"
+              >Contacto</a
+            >
+            <a
+              class="encab-link"
+              id="descargar_cv"
+              href=""
+              >CV</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section
+      id="home-section"
+      class="home-section"
+    >
+      <div>
+        <h2 class="h2-home">Hola, soy Martín Pérez Segura</h2>
+      </div>
+      <div>
+        <h3>Ingeniero desarrollador full stack</h3>
+      </div>
+      <div>
+        <a
+          class="descargar-cv"
+          href=""
+          id="descargar_cv_btn"
+          >Descargar CV</a
+        >
+      </div>
+    </section>
+    <section
+      id="perfil-section"
+      class="perfil-section"
+    >
+      <div class="div-perfil-h2">
+        <h2>Sobre mi</h2>
+      </div>
+      <div class="div-perfil-img-texto">
+        <div class="div-perfil-texto">
+          <h4>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut
+            ipsam dolorem reiciendis, consectetur quod eaque assumenda
+            necessitatibus dolorum neque animi sapiente ipsa esse! Atque amet
+            non quis provident distinctio cupiditate aliquid fuga magnam.
+            Mollitia libero quisquam distinctio labore provident molestiae quasi
+            rerum reiciendis! Consequuntur, ad rem praesentium porro itaque vero
+            mollitia voluptatibus accusamus odit assumenda, magni, quidem
+            possimus earum deserunt amet fuga dolorum et! At fugiat enim sed
+            quos officia blanditiis eum temporibus atque laboriosam voluptate a
+            quod quasi suscipit, dignissimos quia minus hic reiciendis maiores
+            distinctio doloribus numquam, tempora ducimus rerum! Consectetur
+            porro possimus explicabo libero debitis earum.
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            fugit exercitationem soluta illo quas accusamus quaerat natus
+            laboriosam ad quisquam at quidem numquam, esse dignissimos ut, ipsa
+            totam harum ullam dicta corporis libero repellendus iure! Explicabo
+            atque deleniti culpa obcaecati possimus amet nostrum, odit maxime
+            eos consequatur nihil eveniet, sint ab ullam, tempora laudantium
+            perferendis fugiat nisi quo totam repellendus beatae soluta sequi
+            porro. Eveniet, voluptas dicta sint sunt minima voluptatum enim
+            deserunt cupiditate corrupti fuga possimus provident sed aperiam
+            commodi et labore est quos in ex, aspernatur voluptatem quae! Rem
+            incidunt itaque veniam voluptatibus excepturi blanditiis a maiores
+            amet!
+          </p>
+        </div>
+        <div class="div-perfil-img">
+          <img
+            src="./assets/1_rfed_square.jpg"
+            alt="*Imagen no encontrada.*"
+          />
+          <div class="div-perfil-img-info">
+            <div>
+              <h4>Teléfono</h4>
+              <h4>Email</h4>
+              <h4>Sitio Web</h4>
+            </div>
+            <div>
+              <p>+547-651-6547</p>
+              <p>martin@misitio.com</p>
+              <p>www.misitio.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="aptitudes-section"
+      class="aptitudes-section"
+    >
+      <div class="div-aptitudes-h2">
+        <h2>Aptitudes</h2>
+      </div>
+      <div class="aptitudes_card_cont">
+        <div class="aptitud_card">
+          <div class="aptitud_titulo">
+            <h4>JavaScript</h4>
+          </div>
+          <div class="aptitud_bar-val">
+            <div class="aptitud_bar_90"></div>
+            <div class="aptitud_val">
+              <h3>90%</h3>
+            </div>
+          </div>
+        </div>
+        <div class="aptitud_card">
+          <div class="aptitud_titulo">
+            <h4>HTML 5</h4>
+          </div>
+          <div class="aptitud_bar-val">
+            <div class="aptitud_bar_80"></div>
+            <div class="aptitud_val">
+              <h3>80%</h3>
+            </div>
+          </div>
+        </div>
+        <div class="aptitud_card">
+          <div class="aptitud_titulo">
+            <h4>CSS 3</h4>
+          </div>
+          <div class="aptitud_bar-val">
+            <div class="aptitud_bar_75"></div>
+            <div class="aptitud_val">
+              <h3>75%</h3>
+            </div>
+          </div>
+        </div>
+        <div class="aptitud_card">
+          <div class="aptitud_titulo">
+            <h4>NodeJs</h4>
+          </div>
+          <div class="aptitud_bar-val">
+            <div class="aptitud_bar_90"></div>
+            <div class="aptitud_val">
+              <h3>90%</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="formacion-section"
+      id="formacion-section"
+    >
+      <div class="div-formacion-h2">
+        <h2>Formación</h2>
+      </div>
+      <div class="formacion_card-cont">
+        <div class="formacion_card">
+          <div class="formacion_year-titulo">
+            <h4>2009 - 2014</h4>
+            <h3>Ingeniero Aeronáutico</h3>
+          </div>
+          <div class="formacion_linea-div">
+            <div class="point"></div>
+            <div class="linea"></div>
+            <div class="point"></div>
+          </div>
+          <div class="formacion_desc-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint
+              harum repellat quae, sequi in omnis porro non veritatis, rerum aut
+              ad dignissimos sit assumenda beatae deserunt labore accusantium
+              magni.
+            </p>
+          </div>
+        </div>
+        <div class="formacion_card">
+          <div class="formacion_year-titulo">
+            <h4>2009 - 2014</h4>
+            <h3>Ingeniero Aeronáutico</h3>
+          </div>
+          <div class="formacion_linea-div">
+            <div class="point"></div>
+            <div class="linea"></div>
+            <div class="point"></div>
+          </div>
+          <div class="formacion_desc-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint
+              harum repellat quae, sequi in omnis porro non veritatis, rerum aut
+              ad dignissimos sit assumenda beatae deserunt labore accusantium
+              magni.
+            </p>
+          </div>
+        </div>
+        <div class="formacion_card">
+          <div class="formacion_year-titulo">
+            <h4>2009 - 2014</h4>
+            <h3>Ingeniero Aeronáutico</h3>
+          </div>
+          <div class="formacion_linea-div">
+            <div class="point"></div>
+            <div class="linea"></div>
+            <div class="point"></div>
+          </div>
+          <div class="formacion_desc-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint
+              harum repellat quae, sequi in omnis porro non veritatis, rerum aut
+              ad dignissimos sit assumenda beatae deserunt labore accusantium
+              magni.
+            </p>
+          </div>
+        </div>
+        <div class="formacion_card">
+          <div class="formacion_year-titulo">
+            <h4>2009 - 2014</h4>
+            <h3>Ingeniero Aeronáutico</h3>
+          </div>
+          <div class="formacion_linea-div">
+            <div class="point"></div>
+            <div class="linea"></div>
+            <div class="point"></div>
+          </div>
+          <div class="formacion_desc-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint
+              harum repellat quae, sequi in omnis porro non veritatis, rerum aut
+              ad dignissimos sit assumenda beatae deserunt labore accusantium
+              magni.
+            </p>
+          </div>
+        </div>
+        <div class="formacion_card">
+          <div class="formacion_year-titulo">
+            <h4>2009 - 2014</h4>
+            <h3>Ingeniero Aeronáutico</h3>
+          </div>
+          <div class="formacion_linea-div">
+            <div class="point"></div>
+            <div class="linea"></div>
+            <div class="point"></div>
+          </div>
+          <div class="formacion_desc-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint
+              harum repellat quae, sequi in omnis porro non veritatis, rerum aut
+              ad dignissimos sit assumenda beatae deserunt labore accusantium
+              magni.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="ir_arriba">
+        <a href="">^</a>
+      </div>
+      <div class="div-barra-inferior">
+        <div>
+          <h4>Teléfono</h4>
+          <h4>Email</h4>
+          <h4>Sitio Web</h4>
+        </div>
+        <div>
+          <p>+547-651-6547</p>
+          <p>martin@misitio.com</p>
+          <p>www.misitio.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="index_scripts.js"></script>
+</html>

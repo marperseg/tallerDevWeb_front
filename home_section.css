@@ -1,0 +1,101 @@
+/* Sección HOME */
+
+.h2-home {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  animation: 1s ease-in 0s 1 aparecer_desde_abajo;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 20rem;
+  background-image: url('./assets/Planet_above.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 20rem;
+  background: rgba(60, 57, 76, 0.75);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+}
+
+.home-section:hover:before {
+  opacity: 1;
+  /* background: rgba(60, 57, 76, 0); */
+}
+
+.home-section h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  animation: 1s ease-in 0s 1 aparecer_desde_abajo;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.descargar-cv {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  height: 1.5rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  background: rgba(255, 36, 222, 0.75);
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+  animation: 1s ease-in 0s 1 aparecer_desde_arriba;
+}
+
+.descargar-cv:hover {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  transform: translateY(-50%);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes aparecer_desde_abajo {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes aparecer_desde_arriba {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
